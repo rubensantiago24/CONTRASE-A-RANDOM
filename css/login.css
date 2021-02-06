@@ -1,0 +1,50 @@
+body {
+    font-family: arial;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-image: url("../img/1.jpg");
+    object-fit: cover;
+}
+
+.contenedor {
+    background-color: #ffffff;
+    width: 30%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja {
+    /* background-color: red; */
+    padding: 1px;
+    margin: 8px;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    width: 350px;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+}
+
+.centrado-btn {
+    /* background-color: red; */
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: rgb(27, 98, 190);
+}
